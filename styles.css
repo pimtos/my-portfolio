@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    height: 100vh;
+
+    
+    
+}
+.gradient-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #69C3FF, #789CEB, #4797FF, #429FEB);
+    background-size: 400% 400%;
+    animation: gradient 40s ease infinite;
+    z-index: -1;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+    25%{
+        background-position: 100% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    75%{background-position: 0% 100%;
+
+    }
+	100% {
+		background-position: 0% 0%;
+	}
+	
+}
+.navbar{
+    background-color: #C2DFFE;
+}
+  
+#sep{
+    width: 300px;
+    margin-left: 15px;
+}
+#about-me, #projects, #certificates, #contact{
+    max-width: 500px;
+    min-width: 250px
+}
+h1, h2{
+    min-width: 300px;
+}
+#me{
+    height:400px;
+    margin: 20px;
+    margin-right:30px;
+    border-radius: 15%;
+    box-shadow: 5px 0px 5px 2px;
+}
+#icons{
+    height: 50px;
+    padding: 4px;
+   
+}
+#skills{
+    margin-right: 20px;
+}
+#imag{
+    height:240px;
+    margin-right:15px;
+    border-radius: 10px;
+}

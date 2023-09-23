@@ -1,0 +1,6 @@
+{
+  "homepage": "https://pimtos.github.io/my-portfolio",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
