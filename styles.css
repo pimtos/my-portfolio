@@ -67,9 +67,10 @@ h1, h2{
 }
 #imag{
     height:240px;
-    margin-right:15px;
+    margin-right: auto;
     border-radius: 10px;
 }
 .react-logo{
+    height:240px;
     margin-bottom: -5px;
 }
